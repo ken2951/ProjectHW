@@ -25,7 +25,7 @@ footer {
 
 section {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 1000px;
 }
 
 .flex-parent {
@@ -61,4 +61,8 @@ section {
   position: relative;
   top: -0.14em;
   left: 10px;
+}
+
+.main {
+  background: #111111;
 }

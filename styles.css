@@ -63,6 +63,9 @@ section {
   left: 10px;
 }
 
-.main {
-  background: #111111;
+.works-page {
+  background: turquoise;
+}
+.contact-page {
+  background: pink;
 }

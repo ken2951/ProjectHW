@@ -45,3 +45,18 @@ function consoleText(words, id, colors) {
     }
   }, 400);
 }
+
+//scroll event
+const $home = document.querySelector("#home");
+const $works = document.querySelector("#works");
+const $contact = document.querySelector("#contact");
+
+$home.addEventListener("click", scrollToTop);
+$works.addEventListener("click", scrollToWorks);
+$contact.addEventListener("click", scrollToContact);
+
+const scrollToTop = (event) => {
+  window.scrollTo(200, 300);
+};
+const scrollToWorks = (event) => {};
+const scrollToContact = (event) => {};

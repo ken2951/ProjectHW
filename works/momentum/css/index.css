@@ -52,6 +52,7 @@ img {
 
 #greeting {
   font-size: 4em;
+  margin-bottom: 10px;
 }
 
 input[type="text"] {

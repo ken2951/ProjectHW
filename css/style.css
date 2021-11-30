@@ -71,3 +71,8 @@ section {
   background: pink;
   display: none;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
